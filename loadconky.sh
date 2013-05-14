@@ -5,7 +5,7 @@ if [ "$(pidof conky)" ]; then
     killall conky
 fi
 sleep 2
-conky -c ~/.conky/global &
+conky -c ~/.conky/conkyrc &
 while :
 do
     ping www.google.com -c1
@@ -15,5 +15,5 @@ do
     fi
 done
 sleep 5
-conky -c ~/.conky/rss_col &
+conky -c ~/.conky/rss &
 exit
