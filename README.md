@@ -5,4 +5,4 @@ My conky files for a simple bar across the bottom of my screen and a separate rs
 
 Start `conky` by running `loadconky.sh`.
 
-Some of this code was taken from https://github.com/tr37ion/arch_news_conky and modified
+Some of this code was taken from [tr37ion/arch_news_conky](https://github.com/tr37ion/arch_news_conky) and modified
