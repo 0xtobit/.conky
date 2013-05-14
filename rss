@@ -23,7 +23,7 @@ draw_outline no
 draw_shades no
 
 # Position
-gap_y -454
+gap_y -461
 gap_x 5
 alignment top_right
 

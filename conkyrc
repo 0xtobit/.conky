@@ -69,7 +69,7 @@ xftfont PF Tempesta Seven:pixelsize=12
 #${color2}Top: ${color3} ${top name 1} ${color2}cpu/ram:${color4}${top cpu 1}%${top mem 1}%
 
 TEXT
-${offset 95}${color5}${font OpenLogos:size=25}B${font}${voffset -10} \
+${offset 95}${color5}${font OpenLogos:size=20}B${font}${voffset -10} \
 ${color2}Kernel: ${color3}${kernel} ${color5}| \
 ${color2}Time: ${color3}${time %e %B %Y %H:%M:%S}${color5} | \
 ${color2}CPU: ${color5}${voffset 1}${cpugraph cpu1 8,50}${voffset -1} \
