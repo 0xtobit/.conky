@@ -1,0 +1,69 @@
+# RSS News Conky by https://github.com/tr37ion
+
+#avoid flicker
+double_buffer yes
+
+#own window to run simultanious 2 or more conkys
+own_window yes
+own_window_transparent no
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour 000000
+own_window_argb_visual yes
+own_window_argb_value 100
+
+# Borders
+draw_borders no
+border_inner_margin 5
+
+# Contour around fonts
+draw_outline no
+
+# Shades
+draw_shades no
+
+# Position
+gap_y -454
+gap_x 5
+alignment top_right
+
+# Alignment
+alignment middle_left
+# alignment botton_left
+
+# Interval
+update_interval 3
+
+# Colors
+default_color FFFFFF
+color1 1793D1
+color2 535353
+color3 FFFFFF
+color4 666666
+color5 1793D1
+
+# Font
+use_xft yes
+xftfont PF Tempesta Seven:pixelsize=8
+
+# Text alpha when using Xft
+#xftalpha 0.10
+
+# to prevent window from moving
+#use_spacer none
+minimum_size 450 90
+
+TEXT
+${font size=12}
+${voffset -40}
+${color1}Arch Linux
+${voffset -35}
+${font size=8}
+${color3}${rss https://www.archlinux.org/feeds/news/ 15 item_titles 1 4}
+
+${voffset -50}
+${font size=25}
+${color1}Mike Scioscia's Tragic Illness
+${voffset -35}
+${font size=8}
+${color3}${rss http://www.mikesciosciastragicillness.com/feed/ 15 item_titles 1 4}
