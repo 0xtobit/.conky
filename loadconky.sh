@@ -8,7 +8,7 @@ sleep 2
 conky -c ~/.conky/conkyrc &
 while :
 do
-    ping www.google.com -c1
+    ping www.google.com -c3
     sleep 10
     if [ "$?" == 0 ]; then
         break
