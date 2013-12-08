@@ -67,3 +67,4 @@ ${color1}Mike Scioscia's Tragic Illness
 ${voffset -35}
 ${font size=8}
 ${color3}${rss http://www.mikesciosciastragicillness.com/feed/ 15 item_titles 1 4}
+# :set filetype=conkyrc
