@@ -40,7 +40,7 @@ update_interval 1
 # Colors
 default_color FFFFFF
 color1 005391
-color2 777777
+color2 BBBBBB
 color3 FFFFFF
 color4 CCCCCC
 color5 1793D1
